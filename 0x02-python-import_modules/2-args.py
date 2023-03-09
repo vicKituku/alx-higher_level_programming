@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 # Author: Victor Mwangangi
-import sys
+if __name__ == '__main__':
+    import sys
 arguments = len(sys.argv)
 if arguments == 1:
     print("0 arguments.")
