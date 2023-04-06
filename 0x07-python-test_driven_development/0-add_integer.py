@@ -4,6 +4,8 @@ Defines a Function that adds two integers
 Float arguments are typecasted to int before addition
 Raises TypeError if a or b are not an integer or float
 """
+
+
 def add_integer(a, b=98):
     """
     Function that adds 2 integers
