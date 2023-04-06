@@ -1,0 +1,27 @@
+# Test the text_indentation function.
+# Import the module
+
+>>> text_indentation = __import__('5-text_indentation').text_indentation
+
+>>> text_indentation("This is a short sentence.")
+This is a short sentence.
+<BLANKLINE>
+<BLANKLINE>
+
+>>> text_indentation("This is a longer sentence, with a comma.")
+This is a longer sentence, with a comma.
+<BLANKLINE>
+<BLANKLINE>
+
+>>> text_indentation("This sentence has a question mark?")
+This sentence has a question mark?
+<BLANKLINE>
+<BLANKLINE>
+
+>>> text_indentation("")
+<BLANKLINE>
+>>> text_indentation(None)
+Traceback (most recent call last):
+...
+TypeError: text must be a string
+
