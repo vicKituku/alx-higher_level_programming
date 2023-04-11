@@ -2,7 +2,7 @@
 """Defines a class MyList that inherits from list"""
 
 
-class Mylist(list):
+class MyList(list):
     """Provides a custom implementation of sorted printing
     functionality for the built-in list class"""
 
