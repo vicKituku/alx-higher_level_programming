@@ -1,0 +1,45 @@
+# A doctest file for the MyList class
+>>> MyList = __import__('1-my_list').MyList
+>>> a = MyList([4, 2, 3, 1])
+>>> a.print_sorted()
+[1, 2, 3, 4]
+
+>>> b = MyList([10, -5, 8, 3])
+>>> b.print_sorted()
+[-5, 3, 8, 10]
+
+>>> c = MyList([1])
+>>> c.print_sorted()
+[1]
+
+>>> d = MyList([])
+>>> d.print_sorted()
+[]
+
+>>> e = MyList([5, 5, 5, 5])
+>>> e.print_sorted()
+[5, 5, 5, 5]
+
+>>> f = MyList([6, 1, 8, 2, 9, 3, 7, 4, 5])
+>>> f.print_sorted()
+[1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+>>> g = MyList([100, 90, 80, 70, 60, 50])
+>>> g.print_sorted()
+[50, 60, 70, 80, 90, 100]
+
+>>> h = MyList([-1, -2, -3, -4, -5])
+>>> h.print_sorted()
+[-5, -4, -3, -2, -1]
+
+>>> j = MyList()
+>>> j.not_a_method()
+Traceback (most recent call last):
+    ...
+AttributeError: 'MyList' object has no attribute 'not_a_method'
+
+>>> k = mylist([1, 2, 3])
+Traceback (most recent call last):
+    ...
+NameError: name 'mylist' is not defined
+
